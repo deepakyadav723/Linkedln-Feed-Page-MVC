@@ -1,0 +1,69 @@
+@import url(./header/header.css);
+@import url(./main/main.css);
+@import url(./footer/footer.css);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(247, 243, 243);
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", serif;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  .rightDivsIconName,
+  .me {
+    display: none;
+  }
+  #searchInput {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .container {
+    display: block;
+  }
+  .leftContainer {
+    width: 100%;
+    height: auto;
+  }
+  .sort::before {
+    width: calc(100% - 8rem);
+  }
+  .newPostNotification {
+    margin-left: 42%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 63.5%;
+  }
+  #searchInput {
+    width: 15rem;
+  }
+  .sort::before {
+    width: calc(100% - 8.5rem);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #searchInput {
+    width: 5.5rem;
+  }
+}

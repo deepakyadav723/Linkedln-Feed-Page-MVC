@@ -1,0 +1,13 @@
+@import url(./searchInput.css);
+@import url(./navLinks.css);
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 0.5rem;
+  height: 3rem;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

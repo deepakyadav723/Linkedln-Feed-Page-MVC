@@ -1,0 +1,156 @@
+.newPostSection {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  display: none;
+  justify-content: center;
+}
+
+.newPost {
+  background-color: white;
+  margin-top: 5.2rem;
+  padding: 1.5rem 1.5rem 1rem;
+  width: 40%;
+  height: 50%;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeNewPost {
+  background: none;
+  border: none;
+}
+
+.newPostHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newPostHeaderLeft {
+  display: flex;
+}
+
+.postOptions {
+  display: flex;
+  opacity: 0.6;
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+.postOptions:hover {
+  opacity: 1;
+}
+
+.postOptions p {
+  margin: 0 0.2rem 0 0;
+  font-size: 0.9rem;
+}
+
+.postOptionsIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.createNewPostCrossIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.createNewPostCrossIcon:hover {
+  opacity: 1;
+}
+
+.newPostMiddleSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#newPostDescription {
+  margin-top: 0.8rem;
+  width: 99%;
+  flex: 1;
+  font-size: 1rem;
+  font-family: "Montserrat", serif;
+  border: none;
+  resize: none;
+}
+#newPostDescription:focus {
+  outline: none;
+}
+
+.newPostMiddleSectionIcons {
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.newPostMiddleSectionIcons img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.newPostMiddleSectionIcons button {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  font-size: 0.8rem;
+  font-weight: 550;
+  height: 1.2rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.newPostMiddleSectionIcons button img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.2rem;
+}
+
+.newPost hr {
+  margin: 0.5rem 0;
+}
+
+.newPostFooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.newPostFooter button {
+  font-family: "Montserrat", serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  width: 4rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.newPostFooter button:hover {
+  opacity: 1;
+}
+
+.newPostNotification {
+  position: absolute;
+  font-size: 0.8rem;
+  margin: 1rem 0 0 30%;
+  font-weight: 600;
+  color: #0a66c2;
+  background-color: #edf3f8;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: none;
+  z-index: 999;
+}

@@ -1,0 +1,19 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding: 0.8rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+}
+
+#linkedImage2 {
+  width: 4rem;
+  height: 1.7rem;
+  margin-right: 0.4rem;
+}

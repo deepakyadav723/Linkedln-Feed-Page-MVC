@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <title>Linkedln</title>
+        <link rel="icon" type="image/x-icon" href="/images/linkedin.png">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="headerLeftSection">
+                    <img id="linkedinIcon" src="./images/linkedin.png"
+                        alt="Linkedln Icon" />
+                    <div class="searchBar">
+                        <input id="searchInput" type="text"
+                            placeholder="Search" />
+                        <ul class="dropDownList"></ul>
+                    </div>
+                    <img id="searchIcon" src="./images/search.png"
+                        alt="Search Icon" />
+                    <img id="crossIcon" src="./images/x-mark.png"
+                        alt="Cross Icon" />
+                </div>
+                <div class="headerRightSection">
+                    <a class="home rightDivs textDecorator" href="/">
+                        <div class="rightIconsDiv">
+                            <img class="rightIcons" src="./images/home.png"
+                                alt="Home Icon">
+                        </div>
+                        <div class="rightDivsIconName">Home</div>
+                    </a>
+                    <a class="mynetwork rightDivs" href="/mynetwork">
+                        <div class="rightIconsDiv">
+                            <img class="rightIcons" src="./images/my-space.png"
+                                alt="Network Icon">
+                        </div>
+                        <div class="rightDivsIconName">My Network</div>
+                    </a>
+                    <a class="jobs rightDivs" href="/jobs">
+                        <div class="rightIconsDiv">
+                            <img class="rightIcons" src="./images/suitcase.png"
+                                alt="Job Icon">
+                        </div>
+                        <div class="rightDivsIconName">Jobs</div>
+                    </a>
+                    <a class="messages rightDivs" href="/messages">
+                        <div class="rightIconsDiv">
+                            <img class="rightIcons" src="./images/messaging.png"
+                                alt="Messaging Icon">
+                        </div>
+                        <div class="rightDivsIconName">Messaging</div>
+                    </a>
+                    <a class="notification rightDivs"
+                        href="/notification">
+                        <div class="rightIconsDiv">
+                            <img class="rightIcons" src="./images/ringing.png"
+                                alt="Notification Icon">
+                        </div>
+                        <div class="rightDivsIconName">Notification</div>
+                    </a>
+                    <div class="currentUser">
+                        <div class="profilePicDiv">
+                            <img class="profilePic"
+                                src="./images/profile-pic.png"
+                                alt="Profile Pic">
+                        </div>
+                        <div class="me">
+                            Me
+                            <img class="downArrow" src="./images/down-arrow.png"
+                                alt="Down arrow" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="routeContainer"></div>
+            <main class="container">
+                <section class="leftContainer">
+                    <div class="currentLogInUser">
+                        <div class="userBackgroundImgDiv">
+                            <img id="userBackgroundImg"
+                                src="./images/background.png"
+                                alt="User Background Image" />
+                        </div>
+                        <div class="userInfo">
+                            <img id="userImg" src="./images/profile-pic.png"
+                                alt="User Profile Picture" />
+                            <h4 id="userName">Deepak Yadav</h4>
+                            <p id="userHighlights">ASE Intern @Tekion || NITRR
+                                CSE'25 || Guardian (Leetcode: 2148) ||
+                                Specialist (Codeforces- Rating: 1426)</p>
+                            <span id="userLocation">Firozabad, Uttar
+                                Pradesh</span>
+                        </div>
+                    </div>
+                    <div class="profileInfo">
+                        <div class="profileViewers profileInfoSections">
+                            <span class="viewersText">Profile viewers</span>
+                            <span class="viewersCount">45</span>
+                        </div>
+                        <div class="postImpressions profileInfoSections">
+                            <span class="impressionText">Post impressions</span>
+                            <span class="impressionCount">11</span>
+                        </div>
+                    </div>
+                    <button class="showMore">
+                        Show More <img class="showMoreIcon"
+                            src="./images/down-arrow.png" alt="Down arrow" />
+                    </button>
+                    <button class="showLess">
+                        Show Less <img class="showLessIcon"
+                            src="./images/arrow-up.png" alt="Up arrow" />
+                    </button>
+                </section>
+                <section class="rightContainer">
+                    <div class="newPostNotification">
+                        <span>New Post &darr;</span>
+                    </div>
+                    <div class="createNewPost">
+                        <img class="createPostUserImg"
+                            src="./images/profile-pic.png"
+                            alt="User Profile Picture">
+                        <button class="createPostButton">Start a post, try
+                            writing with AI</button>
+                    </div>
+                    <div class="newPostSection">
+                        <form class="newPost">
+                            <div class="newPostHeader">
+                                <div class="newPostHeaderLeft">
+                                    <img class="createPostUserImg"
+                                        src="./images/profile-pic.png"
+                                        alt="User Profile Picture">
+                                    <div>
+                                        <h4 id="userName"
+                                            style="font-weight: 400; font-size: 1.1rem; margin-top: -.25rem;">Deepak
+                                            Yadav</h4>
+                                        <div class="postOptions">
+                                            <p>Post to Anyone</p>
+                                            <img class="postOptionsIcon"
+                                                src="./images/down-arrow.png"
+                                                alt="down-arrow">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="closeNewPost">
+                                    <img class="createNewPostCrossIcon"
+                                        src="./images/x-mark.png"
+                                        alt="Cross Icon" />
+                                </button>
+                            </div>
+                            <div class="newPostMiddleSection">
+                                <!-- <input id="newPostDescription" type="text" placeholder="What do you wnat to talk about?" /> -->
+                                <textarea name="description"
+                                    id="newPostDescription"
+                                    placeholder="What do you wnat to talk about?"></textarea>
+                                <div class="newPostMiddleSectionIcons">
+                                    <button><img src="./images/sparkling.png"
+                                            alt="sparkling icon">Rewrite with
+                                        AI</button>
+                                    <img src="./images/photo.png"
+                                        alt="Select photo" />
+                                    <img src="./images/calendar.png"
+                                        alt="Calendar Icon" />
+                                    <img src="./images/plus.png"
+                                        alt="Plus Icon" />
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="newPostFooter">
+                                <button>Post</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="filtersSection">
+                        <div class="filter">
+                            <div class="filterByDate">
+                                <span class="filterHeading">
+                                    Filter:
+                                </span>
+                                <span class="filterOption">
+                                    Date <img class="calenderIcon"
+                                        src="./images/calendar.png"
+                                        alt="Calendar Icon" />
+                                </span>
+                            </div>
+                            <div class="selectDates">
+                                <div class="dates">
+                                    <label for="startDate">From:</label>
+                                    <input type="date" id="startDate"
+                                        name="startDate" />
+                                </div>
+                                <p class="startDateError">Please select a
+                                    date!</p>
+                                <div class="dates">
+                                    <label for="endDate">To:</label>
+                                    <input type="date" id="endDate"
+                                        name="endDate" />
+                                </div>
+                                <p class="endDateError">Please select a
+                                    date!</p>
+                                <div class="filterButtons">
+                                    <button id="applyButton">Apply</button>
+                                    <button id="resetButton">Reset</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort">
+                            <span class="sortHeading">
+                                Sort by:
+                            </span>
+                            <select class="sortOption">
+                                <option value disabled hidden selected>
+                                    Select
+                                </option>
+                                <option value="ASC">
+                                    Oldest
+                                </option>
+                                <option value="DESC">
+                                    Latest
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="posts"></div>
+                </section>
+            </main>
+            <footer>
+                <img id="linkedImage2" src="./images/lkd.svg"
+                    alt="LinkedIn Image" />
+                LinkedIn Corporation &copy; 2025
+            </footer>
+        </div>
+        <script src="./src/main.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+@import url(./createPost.css);
+@import url(./newPost.css);
+@import url(./filter.css);
+@import url(./posts.css);
+
+.rightContainer {
+  flex: 1;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+.rightContainer::-webkit-scrollbar {
+  display: none;
+}

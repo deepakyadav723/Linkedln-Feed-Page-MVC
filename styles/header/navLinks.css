@@ -1,0 +1,64 @@
+.headerRightSection {
+  display: flex;
+  align-items: center;
+}
+
+.rightDivs,
+.currentUser {
+  margin-left: 1.5rem;
+  font-weight: 450;
+  font-size: 0.9rem;
+  cursor: pointer;
+  filter: opacity(0.6);
+  color: black;
+  text-decoration: none;
+}
+
+.textDecorator {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
+}
+
+.rightIconsDiv,
+.profilePicDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightIcons {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.rightDivs:hover {
+  filter: opacity(1);
+}
+
+.profilePic {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+}
+.currentUser {
+  margin-right: 0.8rem;
+  filter: opacity(1);
+}
+
+.downArrow {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: opacity(0.6);
+}
+
+.me:hover {
+  filter: opacity(1);
+}
